@@ -12,7 +12,7 @@ A tiny playground repo for practicing the GitHub PR workflow: branch, commit, pu
 python greet.py Ada
 ```
 
-Prints a friendly greeting to the console. This repo is intentionally minimal so its easy to find small, safe improvements to practice with.
+Prints a friendly greeting to the console. Omit the name to greet `World` by default. This repo is intentionally minimal so its easy to find small, safe improvements to practice with.
 
 ## Running tests
 

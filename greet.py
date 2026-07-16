@@ -1,13 +1,15 @@
 import sys
 
 
-def greet(name: str) -> str:
+def greet(name: str = "World") -> str:
     return f"Hello, {name}! Welcome aboard."
 
 
 def main() -> None:
-    name = sys.argv[1] if len(sys.argv) > 1 else "World"
-    print(greet(name))
+    if len(sys.argv) > 1:
+        print(greet(sys.argv[1]))
+    else:
+        print(greet())
 
 
 if __name__ == "__main__":
