@@ -14,6 +14,7 @@ echo "==> Installing skill to ${DEST}"
 mkdir -p "${DEST}/scripts"
 cp "${ROOT}/skill/SKILL.md" "${DEST}/SKILL.md"
 cp "${ROOT}/scripts/form_cli.py" "${DEST}/scripts/form_cli.py"
+cp "${ROOT}/skill/scripts/form_cli.py" "${DEST}/scripts/form_cli.py" 2>/dev/null || true
 chmod +x "${DEST}/scripts/form_cli.py"
 
 # Also drop a copy next to bundled pdf skill if present (optional convenience)
