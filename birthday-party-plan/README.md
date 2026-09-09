@@ -2,14 +2,14 @@
 
 Geometry matches the correct patio photo. This plan adds **function**: bathroom at the TV end, **8-tray buffet**, photo zone at the cake wall.
 
-## Ends of the patio
+## Ends of the patio (facing each other)
 
 | End | What’s there | Rule |
 |-----|----------------|------|
-| **Cake wall** (far white wall) | Backdrop, balloons, cake | Clear stand space for photos with grandma |
-| **TV wall** (opposite cake) | TV + **bathroom door** beside TV | **4′ clear corridor** — no tables against that wall |
+| **Cake wall** | Backdrop, balloons, cake | Clear stand space for photos with grandma |
+| **TV wall** (opposite, same brown-tile axis) | TV + **bathroom door** beside TV | **4′ clear corridor** — no tables against that wall |
 
-Stone wall runs along one long side; roof edge + pole on the other; **gray tiles only outside** the roof (tree side).
+These two walls face each other in a **straight line of brown tiling under one roof**. Gray tiles are only outside the roof, beside that strip (pole on the roof edge).
 
 ## Optimized seating (65)
 
