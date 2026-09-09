@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grandma’s 96th — Covered + Uncovered Tables</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --sage: #7d8f6a; --sage-deep: #5c6b4a; --blush: #d4a5a0;
+      --cream: #f7f1e8; --ivory: #fffaf3; --ink: #2c2a26;
+      --muted: #6b655c; --line: #c9bfb0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Outfit", system-ui, sans-serif; color: var(--ink);
+      background:
+        radial-gradient(ellipse 70% 45% at 8% 0%, rgba(125,143,106,0.16), transparent 55%),
+        linear-gradient(180deg, #efe8dc, var(--cream) 40%, #e7dfd2);
+      min-height: 100vh; line-height: 1.45;
+    }
+    header, main, footer { max-width: 1100px; margin: 0 auto; padding-left: 1.4rem; padding-right: 1.4rem; }
+    header { padding-top: 2.3rem; padding-bottom: 1rem; }
+    .eyebrow { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sage-deep); font-weight: 500; margin-bottom: 0.4rem; }
+    h1 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; font-size: clamp(1.85rem, 3.5vw, 2.5rem); }
+    h1 em { font-style: italic; color: var(--sage-deep); font-weight: 500; }
+    .lede { max-width: 48rem; margin-top: 0.65rem; color: var(--muted); font-weight: 300; font-size: 1.02rem; }
+    .meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1rem; }
+    .chip { border: 1px solid var(--line); background: rgba(255,250,243,0.8); padding: 0.3rem 0.65rem; font-size: 0.75rem; }
+    .chip strong { color: var(--sage-deep); }
+    main { padding: 0.75rem 1.4rem 2.75rem; display: grid; gap: 1.15rem; }
+    .plan-card { background: var(--ivory); border: 1px solid var(--line); box-shadow: 0 14px 32px rgba(44,42,38,0.06); overflow: hidden; }
+    .plan-card img { width: 100%; display: block; }
+    .caption { padding: 0.75rem 1rem; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; }
+    @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
+    section.panel { background: rgba(255,250,243,0.78); border: 1px solid var(--line); padding: 1.15rem 1.25rem; }
+    section.panel h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.35rem; margin-bottom: 0.45rem; }
+    section.panel li { color: var(--muted); font-size: 0.9rem; }
+    section.panel ul { list-style: none; display: grid; gap: 0.4rem; margin-top: 0.65rem; }
+    section.panel li::before { content: ""; display: inline-block; width: 0.35rem; height: 0.35rem; background: var(--blush); margin-right: 0.45rem; vertical-align: middle; }
+    a.btn { display: inline-block; margin-top: 0.7rem; color: var(--sage-deep); font-size: 0.88rem; font-weight: 500; }
+    footer { padding-bottom: 2.75rem; color: var(--muted); font-size: 0.78rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">Cake north · TV south · tables under roof + on gray</p>
+    <h1>Distributed seating for <em>mobility</em></h1>
+    <p class="lede">
+      Brown tables stay <strong>under the metal roof</strong>. Cake/backdrop at the
+      <strong>north</strong> roof end; TV (facing the cake) and bathroom at the <strong>south</strong>.
+      Half the tables move to <strong>uncovered gray</strong> so aisles stay open.
+    </p>
+    <div class="meta">
+      <span class="chip"><strong>North</strong> cake</span>
+      <span class="chip"><strong>South</strong> TV → cake</span>
+      <span class="chip"><strong>32</strong> covered · <strong>32</strong> uncovered</span>
+      <span class="chip"><strong>65</strong> total</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="plan-card">
+      <img src="./assets/patio-floor-plan-65.png" alt="Floor plan with covered and uncovered table distribution" />
+      <p class="caption">T1–T4 under roof on brown · T5–T8 on gray · cake north · TV south facing cake · tree 4 ft right of pole.</p>
+    </div>
+
+    <div class="plan-card">
+      <img src="./assets/patio-party-spatial-render.png" alt="Render with tables under roof and on gray" />
+      <p class="caption">Covered banquets under the metal roof; gray courtyard seating past the pole and tree.</p>
+    </div>
+
+    <div class="grid-2">
+      <section class="panel">
+        <h2>Under the roof (brown)</h2>
+        <ul>
+          <li>T1–T4 only — all fully under metal roof</li>
+          <li>Wide aisle north↔south for cake photos + bath access</li>
+          <li>Buffet on stone wall</li>
+          <li>32 seats</li>
+        </ul>
+      </section>
+      <section class="panel">
+        <h2>Uncovered (gray)</h2>
+        <ul>
+          <li>T5–T8 spread around the fixed tree</li>
+          <li>Improves mobility vs packing six tables under roof</li>
+          <li>32 seats + 1 extra chair elsewhere = 65</li>
+        </ul>
+        <a class="btn" href="./SETUP.md">Setup checklist →</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    Confirm north = cake wall and south = TV/bath on site before placing tables.
+  </footer>
+</body>
+</html>

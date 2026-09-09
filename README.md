@@ -5,6 +5,7 @@ A tiny playground repo for practicing the GitHub PR workflow: branch, commit, pu
 ## What's here
 
 - `greet.py` — a small greeting utility with a couple of unit tests.
+- `birthday-party-plan/` — **Grandma’s 96th patio layout** (65 seats, floor plan, render, setup checklist). Open [`birthday-party-plan/index.html`](./birthday-party-plan/index.html).
 
 ## Usage
 
