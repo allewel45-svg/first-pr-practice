@@ -3,30 +3,35 @@
 **Theme:** Boho Spring Garden (sage · dusty pink · cream · wildflower)  
 **Open:** [index.html](./index.html)
 
-## Locked features
+## Photo zone (corrected)
 
-| Fixed element | Placement | Rule |
-|---------------|-----------|------|
-| **Photo alcove** | Masonry/block-wall alcove (same spot as grandma’s birthday photos) | Cake + backdrop + balloon arch stay here; clear stand-in-front for photos |
-| **Tree** | Courtyard circular planter | 4′ clear ring; rounds orbit it |
-| **Support pole** | Covered patio near open transition | 36″ clear; banquets offset left/right |
+The cake and birthday backdrop go in the **deep back alcove** at the far end of the covered patio — the recess where the **white fridge and stacked white chairs** are now.
+
+- Remove fridge, chair stacks, and clutter from that alcove  
+- Alcove extends **further back** than the main covered floor (lighter stone in the recess)  
+- Backdrop on the back wall, balloon arch framing the recess, cake table centered, clear stand space for photos with grandma  
+
+## Fixed obstructions
+
+| Element | Rule |
+|---------|------|
+| **Tree** (courtyard planter) | 4′ clear ring; rounds orbit it |
+| **Support pole** (roof edge) | 36″ clear; banquets offset |
 
 ## Seating (65 chairs)
 
 | Table | Location | Seats |
 |-------|----------|-------|
-| Honor | Just south of photo alcove (grandma + family) | 9 |
+| Honor | Near photo alcove opening | 9 |
 | Banquets B1–B4 | Covered patio around pole | 32 |
 | Rounds R1–R4 | Courtyard around tree | 32 |
 | **Total** | | **65** |
 
 ## Service
 
-- **Buffet** — long table on covered north/east wall, one-way queue toward kitchen  
-- **Drinks** — fridge cold storage beside buffet path  
-- Photo alcove is **not** used for food service  
+Buffet along the side wall — **not** inside the photo alcove.
 
 ## Visuals
 
 - [Floor plan](./assets/patio-floor-plan-65.png)  
-- [Spatial render](./assets/patio-party-spatial-render.png) — courtyard high-angle (tree in foreground, covered patio beyond)  
+- [Spatial render](./assets/patio-party-spatial-render.png) — Wyze covered-patio angle with deep photo alcove  
