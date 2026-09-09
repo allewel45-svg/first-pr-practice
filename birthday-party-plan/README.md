@@ -3,35 +3,33 @@
 **Theme:** Boho Spring Garden (sage · dusty pink · cream · wildflower)  
 **Open:** [index.html](./index.html)
 
-## Photo zone (corrected)
+## Flooring (corrected)
 
-The cake and birthday backdrop go in the **deep back alcove** at the far end of the covered patio — the recess where the **white fridge and stacked white chairs** are now.
+| Surface | Where |
+|---------|--------|
+| **Brown / reddish stone tiles** | Straight continuous run **under one roof**, including the far-end cake & décor zone |
+| **Gray / light pebble tiles** | **Only outside the roof** (open courtyard with the tree) |
 
-- Remove fridge, chair stacks, and clutter from that alcove  
-- Alcove extends **further back** than the main covered floor (lighter stone in the recess)  
-- Backdrop on the back wall, balloon arch framing the recess, cake table centered, clear stand space for photos with grandma  
+The white support pole sits at the roof edge between brown (covered) and gray (open).
 
-## Fixed obstructions
+## Photo zone
 
-| Element | Rule |
-|---------|------|
-| **Tree** (courtyard planter) | 4′ clear ring; rounds orbit it |
-| **Support pole** (roof edge) | 36″ clear; banquets offset |
+Far end of the **brown-tiled covered patio** (where the fridge and stacked white chairs are now):
 
-## Seating (65 chairs)
+- Remove fridge, chair stacks, and clutter  
+- Same brown floor under the same roof — not a separate gray recess  
+- Backdrop, balloon arch, cake (`96`), clear stand space for photos with grandma  
+
+## Seating (65)
 
 | Table | Location | Seats |
 |-------|----------|-------|
-| Honor | Near photo alcove opening | 9 |
-| Banquets B1–B4 | Covered patio around pole | 32 |
-| Rounds R1–R4 | Courtyard around tree | 32 |
+| Honor | Near photo zone on brown under roof | 9 |
+| Banquets B1–B4 | Covered brown patio around pole | 32 |
+| Rounds R1–R4 | Gray courtyard around tree | 32 |
 | **Total** | | **65** |
-
-## Service
-
-Buffet along the side wall — **not** inside the photo alcove.
 
 ## Visuals
 
 - [Floor plan](./assets/patio-floor-plan-65.png)  
-- [Spatial render](./assets/patio-party-spatial-render.png) — Wyze covered-patio angle with deep photo alcove  
+- [Spatial render](./assets/patio-party-spatial-render.png)  
