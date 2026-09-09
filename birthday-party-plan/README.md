@@ -1,29 +1,31 @@
-# Grandma’s 96th — Realistic seating plan
+# Grandma’s 96th — Rectangular table plan
 
-## What’s fixed in this revision
-- **Tree stays put** — circular planter on the gray side toward the TV end (not moved to the cake corner)
-- **No honor table** — everyone sits together at the same family tables
-- **Realistic size** — **60″ rounds** (5 ft), ~8 seats each, drawn to the 10 ft scale
+## Tree (fixed)
+- **Outside the roof**, on the **gray** side  
+- About **4 ft to the right** of the white roof support pole  
+- Do not place tables on the planter  
 
-## Capacity (honest)
+## Tables (realistic)
+All dining tables: **8′ × 30″** banquet rectangles · **8 seats** each (3+3 on long sides, 1+1 on ends).  
+No separate honor table — family seating at every table.
 
 | Zone | Tables | Seats |
 |------|--------|------:|
-| Brown under roof | R1–R6 × 60″ | 48 |
-| Gray around fixed tree | R7–R8 × 60″ | 16 |
-| Extra chair on any table | — | 1 |
-| **Total** | **8 rounds** | **65** |
+| Brown under roof | T1–T6 (two rows of three) | 48 |
+| Gray courtyard (full area shown) | T7–T8 clear of tree | 16 |
+| Extra chair | — | 1 |
+| **Total** | **8× 8′ tables** | **65** |
 
-Each 60″ table needs about **9 ft** clear including chairs. Photo zone at the cake (~5 ft) and bathroom clear at the TV (~4 ft) are kept empty of dining tables.
+## Still locked
+- Cake wall ↔ TV wall on brown under roof  
+- Bathroom 4′ clear beside TV  
+- Brown ≈ gray width  
+- 8-tray buffet on brick/stone wall  
 
-## Layout rules
-- Brown ≈ gray width; brown under roof; gray outside past the pole  
-- TV on camera wall faces cake; bathroom beside TV  
-- 8-tray buffet on brick/stone wall (brown side)  
-- All family seating — no separate head table  
+## Why rectangles here
+In this long, relatively narrow covered strip, 8′ banquets in two rows leave clearer aisles past the buffet and pole than 60″ rounds, while still seating 8 per table.
 
 ## Files
-- [Floor plan](./assets/patio-floor-plan-65.png)
-- [Render](./assets/patio-party-spatial-render.png)
-- [Setup checklist](./SETUP.md)
-- [Browser view](./index.html)
+- [Floor plan](./assets/patio-floor-plan-65.png)  
+- [Render](./assets/patio-party-spatial-render.png)  
+- [Setup](./SETUP.md) · [Browser](./index.html)  
