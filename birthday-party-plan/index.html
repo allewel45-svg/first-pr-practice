@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Grandma’s 96th — 8′ Rectangular Tables</title>
+  <title>Grandma’s 96th — Updated Site Layout</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -21,7 +21,7 @@
         linear-gradient(180deg, #efe8dc, var(--cream) 40%, #e7dfd2);
       min-height: 100vh; line-height: 1.45;
     }
-    header, main, footer { max-width: 1080px; margin: 0 auto; padding-left: 1.4rem; padding-right: 1.4rem; }
+    header, main, footer { max-width: 1100px; margin: 0 auto; padding-left: 1.4rem; padding-right: 1.4rem; }
     header { padding-top: 2.3rem; padding-bottom: 1rem; }
     .eyebrow { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sage-deep); font-weight: 500; margin-bottom: 0.4rem; }
     h1 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; font-size: clamp(1.85rem, 3.5vw, 2.5rem); }
@@ -35,7 +35,8 @@
     .plan-card img { width: 100%; display: block; }
     .caption { padding: 0.75rem 1rem; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); }
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; }
-    @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+    @media (max-width: 800px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
     section.panel { background: rgba(255,250,243,0.78); border: 1px solid var(--line); padding: 1.15rem 1.25rem; }
     section.panel h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.35rem; margin-bottom: 0.45rem; }
     section.panel li { color: var(--muted); font-size: 0.9rem; }
@@ -47,56 +48,71 @@
 </head>
 <body>
   <header>
-    <p class="eyebrow">Rectangular tables · tree outside roof · full gray courtyard</p>
-    <h1>8′ banquet tables for <em>65</em></h1>
+    <p class="eyebrow">Updated from your new site photos</p>
+    <h1>Reconfigured layout for <em>65</em></h1>
     <p class="lede">
-      Wide view so the <strong>pole</strong> and <strong>tree</strong> sit in the right places:
-      roof edge + pole, then ~<strong>4 ft</strong> of gray, then the tree outside the roof.
-      Dining is <strong>8′ × 30″</strong> rectangles — family seating, full gray courtyard shown.
+      Pole on the roof edge, tree ~<strong>4 ft right</strong> on gray (outside roof),
+      <strong>8′ rectangular</strong> family tables, décor and buffet reset to match the real patio.
     </p>
     <div class="meta">
-      <span class="chip"><strong>8×</strong> 8′ × 30″ tables</span>
-      <span class="chip"><strong>T1–T6</strong> brown · <strong>T7–T8</strong> gray</span>
-      <span class="chip"><strong>64 + 1</strong> = 65</span>
       <span class="chip"><strong>Tree</strong> outside roof</span>
+      <span class="chip"><strong>8×</strong> 8′ tables</span>
+      <span class="chip"><strong>65</strong> seats</span>
+      <span class="chip"><strong>8-tray</strong> buffet</span>
     </div>
   </header>
 
   <main>
     <div class="plan-card">
-      <img src="./assets/patio-floor-plan-65.png" alt="Floor plan with rectangular tables and tree 4ft right of pole" />
-      <p class="caption">All eight tables shown · gray courtyard in full · tree ~4 ft right of pole outside roof · 8′ tables to scale.</p>
+      <img src="./assets/patio-floor-plan-65.png" alt="Updated floor plan from site photos" />
+      <p class="caption">Floor plan — brown under roof · pole · 4 ft · tree on gray · T1–T6 + T7–T8 = 65 with +1 chair.</p>
     </div>
 
     <div class="plan-card">
-      <img src="./assets/patio-party-spatial-render.png" alt="Render with rectangular tables and tree outside roof" />
-      <p class="caption">Realistic view toward the cake — banquets under the roof; tree and gray seating outside past the pole.</p>
+      <img src="./assets/patio-party-spatial-render.png" alt="Updated spatial render with décor and rectangular tables" />
+      <p class="caption">Wide render — décor on cake wall, buffet on stone wall, banquets under roof, tree past the pole on gray.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="plan-card">
+        <img src="./assets/site-refs/59EEDD33-D820-4243-8DCC-A39ADBFC1634_L0_001.jpg" alt="Site ref pole and tree" />
+        <p class="caption">Site: pole at roof edge, tree outside.</p>
+      </div>
+      <div class="plan-card">
+        <img src="./assets/site-refs/8F697071-3158-463E-AD93-7001DEA665C4_L0_001.jpg" alt="Site ref tree on gray" />
+        <p class="caption">Site: tree on gray, ~4 ft from pole.</p>
+      </div>
+      <div class="plan-card">
+        <img src="./assets/site-refs/67D3B48D-831D-4287-89EB-038CD1A93551_L0_001.jpg" alt="Site ref covered patio" />
+        <p class="caption">Site: covered brown patio volume.</p>
+      </div>
     </div>
 
     <div class="grid-2">
       <section class="panel">
-        <h2>Tree &amp; gray</h2>
+        <h2>What was reconfigured</h2>
         <ul>
-          <li>Tree <strong>outside</strong> the roof on gray</li>
-          <li>~<strong>4 ft</strong> to the right of the support pole</li>
-          <li>T7–T8 on gray, clear of the planter</li>
-          <li>Full gray tile area drawn (not cropped)</li>
+          <li>Landmarks locked from your new photos</li>
+          <li>Rectangular 8′ tables for the long covered strip</li>
+          <li>Décor + buffet reset on cake wall and stone wall</li>
+          <li>Gray courtyard seating clear of the tree</li>
         </ul>
+        <a class="btn" href="./SETUP.md">Setup checklist →</a>
       </section>
       <section class="panel">
-        <h2>Why 8′ rectangles</h2>
+        <h2>Seat count</h2>
         <ul>
-          <li>Fit the long narrow brown strip in two rows</li>
-          <li>Clearer aisles than 60″ rounds past buffet &amp; pole</li>
-          <li>8 seats each · T1–T6 = 48 · T7–T8 = 16 · +1 = 65</li>
+          <li>T1–T6 on brown → <strong>48</strong></li>
+          <li>T7–T8 on gray → <strong>16</strong></li>
+          <li>+1 chair → <strong>65</strong></li>
+          <li>Bathroom 4′ clear at TV wall</li>
         </ul>
-        <a class="btn" href="./SETUP.md">Rental checklist →</a>
       </section>
     </div>
   </main>
 
   <footer>
-    Confirm on site: 4 ft from pole to tree trunk/planter edge, and brown width for two 8′ rows beside the buffet.
+    Measure the pole-to-tree gap and brown width on site before final rentals.
   </footer>
 </body>
 </html>
