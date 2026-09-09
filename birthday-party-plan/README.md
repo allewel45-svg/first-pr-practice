@@ -1,41 +1,32 @@
-# Patio Birthday Party — Floor Plan (65 Guests)
+# Grandma’s 96th — Patio Floor Plan (65 Seated)
 
 **Theme:** Boho Spring Garden (sage · dusty pink · cream · wildflower)  
-**Format:** Mixed seated dining + cocktail overflow  
-**Plan file:** [index.html](./index.html) (open in a browser)
+**Open:** [index.html](./index.html)
 
-## Space map (from your photos)
+## Locked features
 
-| Zone | Area (from photos) | Party use |
-|------|--------------------|-----------|
-| **A** | Covered patio — reddish tile, stone veneer wall, metal roof | 3 banquet tables × 10 = **30 seats** |
-| **B** | White TV wall corner (doors left/right of TV) | Photo backdrop, balloon arch, cake table |
-| **C** | Stone wall + kitchen pass-through | One-way buffet; drinks beside fridge |
-| **D** | Open courtyard — light stone, central tree | 4 rounds × 6 = **24** + 6 high-tops + VIP lounge **8** |
-| **E** | Utility alley / restroom shed | Service only — keep clear |
+| Fixed element | Placement | Rule |
+|---------------|-----------|------|
+| **Photo alcove** | Masonry/block-wall alcove (same spot as grandma’s birthday photos) | Cake + backdrop + balloon arch stay here; clear stand-in-front for photos |
+| **Tree** | Courtyard circular planter | 4′ clear ring; rounds orbit it |
+| **Support pole** | Covered patio near open transition | 36″ clear; banquets offset left/right |
 
-**Capacity:** 54 assigned seats + 11+ standing at high-tops = **65**.
+## Seating (65 chairs)
 
-## Function rules baked into the plan
+| Table | Location | Seats |
+|-------|----------|-------|
+| Honor | Just south of photo alcove (grandma + family) | 9 |
+| Banquets B1–B4 | Covered patio around pole | 32 |
+| Rounds R1–R4 | Courtyard around tree | 32 |
+| **Total** | | **65** |
 
-- Clear **36″** at every door; **48″** main spine courtyard → dining → buffet  
-- Existing sofas removed from primary floor; small **VIP lounge** kept for birthday guest / elders  
-- Fridge stays as drink cold-storage; buffet fed from kitchen opening  
-- Tree planter stays; rounds and high-tops orbit it  
-- Utility / washer corridor not used for guests  
+## Service
 
-## Theme dressing (Amazon kit, scaled)
-
-- Organic sage / blush / cream balloon arch at Zone B  
-- Wildflower “Happy Birthday” cream backdrop  
-- Matching floral linen skirts on banquets + buffet  
-- Tall monstera/palm greenery flanking cake  
-- String lights on courtyard overhead wires  
+- **Buffet** — long table on covered north/east wall, one-way queue toward kitchen  
+- **Drinks** — fridge cold storage beside buffet path  
+- Photo alcove is **not** used for food service  
 
 ## Visuals
 
-- [Floor plan](./assets/patio-floor-plan-65.png) — labeled top-down layout  
-- [Spatial render](./assets/patio-party-spatial-render.png) — decorated patio perspective  
-- [Interactive plan](./index.html) — SVG + notes (open in a browser)
-
-Mark up any layout changes you want and a revised render can follow.
+- [Floor plan](./assets/patio-floor-plan-65.png)  
+- [Spatial render](./assets/patio-party-spatial-render.png)  
