@@ -2,8 +2,9 @@
 
 ## Tree (fixed)
 - **Outside the roof**, on the **gray** side  
-- About **4 ft to the right** of the white roof support pole  
+- Order across the patio: **brown under roof → pole on roof edge → ~4 ft gap → tree planter → more gray**  
 - Do not place tables on the planter  
+- Wide view shows the full gray courtyard so pole and tree stay in the correct spaces  
 
 ## Tables (realistic)
 All dining tables: **8′ × 30″** banquet rectangles · **8 seats** each (3+3 on long sides, 1+1 on ends).  
