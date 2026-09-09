@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>96th Birthday Patio Floor Plan — 65 Seated</title>
+  <title>96th Birthday — Optimized 65-Seat Layout</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -17,226 +17,197 @@
     body {
       font-family: "Outfit", system-ui, sans-serif; color: var(--ink);
       background:
-        radial-gradient(ellipse 80% 50% at 10% 0%, rgba(125, 143, 106, 0.18), transparent 55%),
-        linear-gradient(180deg, #efe8dc 0%, var(--cream) 45%, #e7dfd2 100%);
+        radial-gradient(ellipse 80% 50% at 10% 0%, rgba(125,143,106,0.18), transparent 55%),
+        linear-gradient(180deg, #efe8dc, var(--cream) 45%, #e7dfd2);
       min-height: 100vh; line-height: 1.45;
     }
     header, main, footer { max-width: 1100px; margin: 0 auto; padding-left: 1.5rem; padding-right: 1.5rem; }
     header { padding-top: 2.5rem; padding-bottom: 1rem; }
     .eyebrow { font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--sage-deep); font-weight: 500; margin-bottom: 0.5rem; }
-    h1 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; font-size: clamp(2rem, 4vw, 3rem); }
+    h1 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; font-size: clamp(2rem, 4vw, 2.8rem); }
     h1 em { font-style: italic; color: var(--sage-deep); font-weight: 500; }
-    .lede { max-width: 46rem; margin-top: 0.75rem; color: var(--muted); font-weight: 300; font-size: 1.05rem; }
-    .meta { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.25rem; }
-    .chip { border: 1px solid var(--line); background: rgba(255,250,243,0.7); padding: 0.35rem 0.75rem; font-size: 0.8rem; }
+    .lede { max-width: 48rem; margin-top: 0.75rem; color: var(--muted); font-weight: 300; font-size: 1.05rem; }
+    .meta { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1.2rem; }
+    .chip { border: 1px solid var(--line); background: rgba(255,250,243,0.75); padding: 0.35rem 0.7rem; font-size: 0.78rem; }
     .chip strong { color: var(--sage-deep); }
-    main { padding-top: 1rem; padding-bottom: 3rem; display: grid; gap: 1.5rem; }
+    main { padding: 1rem 1.5rem 3rem; display: grid; gap: 1.35rem; }
     .plan-card { background: var(--ivory); border: 1px solid var(--line); box-shadow: 0 18px 40px rgba(44,42,38,0.06); overflow: hidden; }
     .plan-card img, .plan-card svg { width: 100%; display: block; }
     .caption { padding: 0.85rem 1rem; font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--line); }
-    .grid-2 { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 1.5rem; }
-    @media (max-width: 820px) { .grid-2 { grid-template-columns: 1fr; } }
-    section.panel { background: rgba(255,250,243,0.72); border: 1px solid var(--line); padding: 1.35rem 1.4rem; }
-    section.panel h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.55rem; font-weight: 600; margin-bottom: 0.65rem; }
-    section.panel p, section.panel li { color: var(--muted); font-size: 0.95rem; }
-    section.panel ul { list-style: none; display: grid; gap: 0.55rem; margin-top: 0.85rem; }
-    section.panel li::before { content: ""; display: inline-block; width: 0.45rem; height: 0.45rem; background: var(--blush); margin-right: 0.55rem; vertical-align: middle; }
-    .capacity { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-top: 1rem; }
-    .stat { border-top: 2px solid var(--sage); padding-top: 0.55rem; }
-    .stat .n { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.9rem; color: var(--sage-deep); line-height: 1; }
-    .stat .l { font-size: 0.78rem; color: var(--muted); margin-top: 0.25rem; }
-    .note { border-left: 3px solid var(--blush); padding-left: 0.9rem; margin-top: 1rem; color: var(--muted); font-size: 0.9rem; }
-    footer { padding-bottom: 3rem; color: var(--muted); font-size: 0.82rem; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
+    section.panel { background: rgba(255,250,243,0.75); border: 1px solid var(--line); padding: 1.25rem 1.35rem; }
+    section.panel h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.45rem; margin-bottom: 0.55rem; }
+    section.panel p, section.panel li { color: var(--muted); font-size: 0.92rem; }
+    section.panel ul { list-style: none; display: grid; gap: 0.5rem; margin-top: 0.75rem; }
+    section.panel li::before { content: ""; display: inline-block; width: 0.4rem; height: 0.4rem; background: var(--blush); margin-right: 0.5rem; vertical-align: middle; }
+    .capacity { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin-top: 0.9rem; }
+    .stat { border-top: 2px solid var(--sage); padding-top: 0.45rem; }
+    .stat .n { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.85rem; color: var(--sage-deep); line-height: 1; }
+    .stat .l { font-size: 0.75rem; color: var(--muted); margin-top: 0.2rem; }
+    .note { border-left: 3px solid var(--blush); padding-left: 0.85rem; margin-top: 0.9rem; font-size: 0.88rem; color: var(--muted); }
+    footer { padding-bottom: 3rem; color: var(--muted); font-size: 0.8rem; }
   </style>
 </head>
 <body>
   <header>
-    <p class="eyebrow">Grandma’s 96th · Boho Spring Garden</p>
-    <h1>Patio Floor Plan — <em>65 Seated</em></h1>
+    <p class="eyebrow">Space &amp; function · 65 guests · 8-tray buffet</p>
+    <h1>Optimized table layout for <em>grandma’s 96th</em></h1>
     <p class="lede">
-      Geometry matched to your correct photo: a long <strong>brown-tiled strip under one roof</strong>
-      (stone wall left, white back wall with cake/backdrop), roof edge + pole on the right, and
-      <strong>gray tiles only outside</strong> beside the covered area (tree + overflow seating).
+      Cake/photo on the far white wall; <strong>TV wall opposite</strong> with the <strong>bathroom door beside the TV</strong>
+      kept clear; buffet for <strong>8 trays</strong> on the stone wall; rounds packed with a center aisle for bath, food, and photos.
     </p>
     <div class="meta">
-      <span class="chip"><strong>Brown</strong> under roof · straight back wall</span>
-      <span class="chip"><strong>Gray</strong> right of pole · outside roof</span>
-      <span class="chip"><strong>Photo</strong> against white back wall</span>
-      <span class="chip"><strong>Seated</strong> 65</span>
+      <span class="chip"><strong>65</strong> seated</span>
+      <span class="chip"><strong>Buffet</strong> 8 trays · one-way</span>
+      <span class="chip"><strong>Bath</strong> 4′ clear at TV wall</span>
+      <span class="chip"><strong>Photo</strong> cake wall clear</span>
     </div>
   </header>
 
   <main>
     <div class="plan-card">
-      <img src="./assets/correct-patio-reference.jpg" alt="Correct patio geometry reference photo" />
-      <p class="caption">Your reference — correct walls, roof edge, brown vs gray, cake on the flat white back wall, buffet on the stone wall.</p>
+      <img src="./assets/patio-floor-plan-65.png" alt="Optimized floor plan for 65 seats with 8-tray buffet and bathroom clear at TV wall" />
+      <p class="caption">Optimized plan — bathroom corridor at TV end, 8-tray buffet on stone wall, photo at cake wall, R1–R5 under roof + R6–R7 by the tree.</p>
     </div>
 
     <div class="plan-card">
-      <img src="./assets/patio-floor-plan-65.png" alt="Corrected floor plan matching patio photo geometry for 65 seats" />
-      <p class="caption">Revised floor plan — same geometry as the photo, scaled to 65 seats (no recessed cake nook).</p>
-    </div>
-
-    <div class="plan-card" aria-label="SVG floor plan matching photo geometry">
-      <svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img">
-        <title>Floor plan matching correct patio photo — 65 seated</title>
+      <svg viewBox="0 0 720 500" xmlns="http://www.w3.org/2000/svg" role="img">
+        <title>Optimized schematic — TV/bath end, cake end, 8-tray buffet, 65 seats</title>
         <defs>
-          <pattern id="brown" width="12" height="12" patternUnits="userSpaceOnUse">
+          <pattern id="br" width="12" height="12" patternUnits="userSpaceOnUse">
             <rect width="12" height="12" fill="#e4d0b8"/>
-            <path d="M0 12 L12 0 M-2 2 L2 -2 M10 14 L14 10" stroke="#d2b896" stroke-width="0.7"/>
+            <path d="M0 12 L12 0" stroke="#d2b896" stroke-width="0.7"/>
           </pattern>
-          <pattern id="gray" width="10" height="10" patternUnits="userSpaceOnUse">
+          <pattern id="gr" width="10" height="10" patternUnits="userSpaceOnUse">
             <rect width="10" height="10" fill="#e8e4dc"/>
-            <circle cx="3" cy="4" r="1.3" fill="#d0cbc0"/>
-            <circle cx="7" cy="7" r="1.6" fill="#c9c3b6"/>
+            <circle cx="3" cy="4" r="1.2" fill="#d0cbc0"/>
+            <circle cx="7" cy="7" r="1.5" fill="#c9c3b6"/>
           </pattern>
-          <filter id="s"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.12"/></filter>
         </defs>
+        <rect width="720" height="500" fill="#f3ebe0"/>
+        <text x="18" y="24" font-family="Cormorant Garamond, Georgia, serif" font-size="16" font-weight="600" fill="#2c2a26">OPTIMIZED FLOW · 65 SEATS · 8-TRAY BUFFET</text>
+        <text x="18" y="40" font-family="Outfit, sans-serif" font-size="9" fill="#6b655c">Cake wall ↔ TV/bath wall · brown under roof · gray only right of pole</text>
 
-        <rect width="700" height="480" fill="#f3ebe0"/>
-        <text x="20" y="26" font-family="Cormorant Garamond, Georgia, serif" font-size="17" font-weight="600" fill="#2c2a26">FLOOR PLAN · MATCHES PHOTO GEOMETRY · 65 SEATED</text>
-        <text x="20" y="42" font-family="Outfit, sans-serif" font-size="9" fill="#6b655c">Brown strip under one roof · gray only right of roof edge · cake on flat white back wall (not a recess)</text>
+        <!-- Gray -->
+        <rect x="430" y="50" width="200" height="380" fill="url(#gr)" stroke="#8a8378"/>
+        <text x="530" y="68" text-anchor="middle" font-size="8" fill="#5c6b4a" font-family="Outfit, sans-serif">GRAY · OUTSIDE ROOF</text>
 
-        <!-- N -->
-        <g transform="translate(660, 30)">
-          <circle r="12" fill="#fffaf3" stroke="#c9bfb0"/>
-          <polygon points="0,-7 3,2 0,0 -3,2" fill="#5c6b4a"/>
-          <text y="9" text-anchor="middle" font-size="7" fill="#5c6b4a" font-family="Outfit, sans-serif">N</text>
+        <!-- Brown -->
+        <rect x="40" y="50" width="390" height="380" fill="url(#br)" stroke="#8a7460" stroke-width="2"/>
+        <rect x="40" y="50" width="10" height="380" fill="#c4b09a"/>
+
+        <!-- CAKE WALL north -->
+        <rect x="40" y="50" width="390" height="8" fill="#f5f2ea" stroke="#c9bfb0"/>
+        <text x="235" y="45" text-anchor="middle" font-size="8" fill="#8a6b1f" font-family="Outfit, sans-serif" font-weight="600">CAKE WALL · PHOTO</text>
+        <rect x="140" y="65" width="180" height="48" fill="none" stroke="#c9a84c" stroke-width="2"/>
+        <rect x="165" y="72" width="130" height="7" fill="#f7f1e8" stroke="#d4a5a0"/>
+        <text x="230" y="77" text-anchor="middle" font-size="5.5" fill="#2c2a26" font-family="Cormorant Garamond, Georgia, serif" font-style="italic">Happy Birthday</text>
+        <rect x="200" y="85" width="60" height="18" rx="2" fill="#fffaf3" stroke="#d4a5a0"/>
+        <text x="230" y="97" text-anchor="middle" font-size="7" fill="#5c6b4a" font-family="Outfit, sans-serif">CAKE 96</text>
+        <circle cx="150" cy="90" r="5" fill="#7d8f6a"/><circle cx="310" cy="90" r="5" fill="#d4a5a0"/>
+
+        <!-- Honor -->
+        <rect x="70" y="120" width="55" height="26" rx="2" fill="#fffaf3" stroke="#c9a84c" stroke-width="1.8"/>
+        <text x="97" y="137" text-anchor="middle" font-size="8" fill="#8a6b1f" font-family="Outfit, sans-serif">HONOR 9</text>
+
+        <!-- Buffet 8 trays -->
+        <rect x="58" y="160" width="26" height="175" rx="2" fill="#fffaf3" stroke="#7d8f6a" stroke-width="1.8"/>
+        <text x="71" y="220" text-anchor="middle" font-size="8" fill="#5c6b4a" font-family="Outfit, sans-serif" transform="rotate(-90 71 220)">BUFFET · 8 TRAYS</text>
+        <!-- tray ticks -->
+        <g stroke="#7d8f6a" stroke-width="1">
+          <line x1="58" y1="175" x2="84" y2="175"/><line x1="58" y1="195" x2="84" y2="195"/>
+          <line x1="58" y1="215" x2="84" y2="215"/><line x1="58" y1="235" x2="84" y2="235"/>
+          <line x1="58" y1="255" x2="84" y2="255"/><line x1="58" y1="275" x2="84" y2="275"/>
+          <line x1="58" y1="295" x2="84" y2="295"/><line x1="58" y1="315" x2="84" y2="315"/>
         </g>
+        <path d="M95 320 L95 170" stroke="#9a7b9a" stroke-width="1.2" stroke-dasharray="3 2" fill="none" marker-end="url(#a)"/>
+        <text x="108" y="245" font-size="7" fill="#9a7b9a" font-family="Outfit, sans-serif" transform="rotate(-90 108 245)">plates → trays → seats</text>
 
-        <!-- GRAY outside roof (RIGHT) -->
-        <rect x="420" y="55" width="200" height="360" fill="url(#gray)" stroke="#8a8378" stroke-width="1.5"/>
-        <text x="520" y="74" text-anchor="middle" font-size="9" fill="#5c6b4a" font-family="Outfit, sans-serif" font-weight="500">GRAY TILES · OUTSIDE ROOF</text>
-
-        <!-- BROWN under roof (LEFT long rectangle) — straight north wall -->
-        <rect x="40" y="55" width="380" height="360" fill="url(#brown)" stroke="#8a7460" stroke-width="2"/>
-        <!-- roof hatch -->
-        <rect x="40" y="55" width="380" height="360" fill="none" stroke="#b8a48c" stroke-width="0.8" stroke-dasharray="5 3"/>
-        <text x="230" y="78" text-anchor="middle" font-size="10" fill="#5c6b4a" font-family="Outfit, sans-serif" font-weight="500">BROWN TILES · UNDER ONE ROOF</text>
-
-        <!-- Stone left wall -->
-        <rect x="40" y="55" width="10" height="360" fill="#c4b09a"/>
-        <text x="28" y="240" transform="rotate(-90 28 240)" font-size="8" fill="#6b655c" font-family="Outfit, sans-serif">STONE WALL</text>
-
-        <!-- Straight white BACK wall (north) — cake against it, NO recess -->
-        <rect x="40" y="55" width="380" height="6" fill="#f5f2ea" stroke="#c9bfb0"/>
-        <text x="230" y="50" text-anchor="middle" font-size="7" fill="#6b655c" font-family="Outfit, sans-serif">WHITE BACK WALL (straight — not recessed)</text>
-
-        <!-- Photo zone against back wall -->
-        <g id="photo">
-          <rect x="130" y="68" width="200" height="55" fill="none" stroke="#c9a84c" stroke-width="2"/>
-          <rect x="155" y="74" width="150" height="8" fill="#f7f1e8" stroke="#d4a5a0"/>
-          <text x="230" y="80" text-anchor="middle" font-size="6" fill="#2c2a26" font-family="Cormorant Garamond, Georgia, serif" font-style="italic">Happy Birthday backdrop</text>
-          <circle cx="140" cy="90" r="6" fill="#7d8f6a"/>
-          <circle cx="136" cy="102" r="5" fill="#d4a5a0"/>
-          <circle cx="320" cy="90" r="6" fill="#d4a5a0"/>
-          <circle cx="324" cy="102" r="5" fill="#7d8f6a"/>
-          <rect x="195" y="90" width="70" height="22" rx="2" fill="#fffaf3" stroke="#d4a5a0" stroke-width="1.4" filter="url(#s)"/>
-          <text x="230" y="104" text-anchor="middle" font-size="8" fill="#5c6b4a" font-family="Outfit, sans-serif">CAKE · 96</text>
-          <text x="230" y="118" text-anchor="middle" font-size="6.5" fill="#8a6b1f" font-family="Outfit, sans-serif">photo stand clear</text>
+        <!-- Rounds R1-R5 -->
+        <g fill="#fffaf3" stroke="#d4a5a0" stroke-width="1.4">
+          <circle cx="175" cy="175" r="26"/><circle cx="310" cy="175" r="26"/>
+          <circle cx="240" cy="250" r="26"/>
+          <circle cx="175" cy="325" r="26"/><circle cx="310" cy="325" r="26"/>
         </g>
-        <!-- door on back wall -->
-        <rect x="360" y="55" width="16" height="5" fill="#2c2a26"/>
-
-        <!-- Roof edge line + pole -->
-        <line x1="420" y1="55" x2="420" y2="415" stroke="#c9a84c" stroke-width="2.5"/>
-        <text x="420" y="430" text-anchor="middle" font-size="8" fill="#8a6b1f" font-family="Outfit, sans-serif" font-weight="600">ROOF EDGE</text>
-        <rect x="414" y="220" width="12" height="12" fill="#fff" stroke="#c9a84c" stroke-width="2"/>
-        <circle cx="420" cy="226" r="20" fill="none" stroke="#c9a84c" stroke-dasharray="3 2"/>
-        <text x="420" y="258" text-anchor="middle" font-size="7" fill="#8a6b1f" font-family="Outfit, sans-serif">POLE</text>
-
-        <!-- Buffet on LEFT stone wall -->
-        <rect x="58" y="150" width="24" height="180" rx="2" fill="#fffaf3" stroke="#7d8f6a" stroke-width="1.6" filter="url(#s)"/>
-        <text x="70" y="240" text-anchor="middle" font-size="9" fill="#5c6b4a" font-family="Outfit, sans-serif" transform="rotate(-90 70 240)">BUFFET (as in photo)</text>
-
-        <!-- Honor near photo -->
-        <g filter="url(#s)">
-          <rect x="95" y="135" width="55" height="28" rx="2" fill="#fffaf3" stroke="#c9a84c" stroke-width="1.8"/>
-          <text x="122" y="152" text-anchor="middle" font-size="8" fill="#8a6b1f" font-family="Outfit, sans-serif">HONOR · 9</text>
+        <g font-family="Outfit, sans-serif" text-anchor="middle" fill="#5c6b4a" font-size="9">
+          <text x="175" y="178">R1·8</text><text x="310" y="178">R2·8</text>
+          <text x="240" y="253">R3·8</text>
+          <text x="175" y="328">R4·8</text><text x="310" y="328">R5·8</text>
         </g>
+        <!-- center aisle -->
+        <path d="M240 400 L240 120" stroke="#9a7b9a" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+        <text x="252" y="270" font-size="7" fill="#9a7b9a" font-family="Outfit, sans-serif">center aisle</text>
 
-        <!-- Rounds on BROWN under roof: R1–R4 -->
-        <g filter="url(#s)" fill="#fffaf3" stroke="#d4a5a0" stroke-width="1.4">
-          <circle cx="175" cy="210" r="28"/>
-          <circle cx="290" cy="210" r="28"/>
-          <circle cx="175" cy="300" r="28"/>
-          <circle cx="290" cy="300" r="28"/>
-        </g>
-        <g font-family="Outfit, sans-serif" text-anchor="middle" fill="#5c6b4a">
-          <text x="175" y="208" font-size="9">R1</text><text x="175" y="220" font-size="8" fill="#d4a5a0">8</text>
-          <text x="290" y="208" font-size="9">R2</text><text x="290" y="220" font-size="8" fill="#d4a5a0">8</text>
-          <text x="175" y="298" font-size="9">R3</text><text x="175" y="310" font-size="8" fill="#d4a5a0">8</text>
-          <text x="290" y="298" font-size="9">R4</text><text x="290" y="310" font-size="8" fill="#d4a5a0">8</text>
-        </g>
-        <!-- chairs hints -->
-        <g fill="#e8dfd2" stroke="#a89f90" stroke-width="0.6">
-          <circle cx="175" cy="178" r="4"/><circle cx="203" cy="190" r="4"/><circle cx="210" cy="210" r="4"/><circle cx="203" cy="230" r="4"/>
-          <circle cx="175" cy="242" r="4"/><circle cx="147" cy="230" r="4"/><circle cx="140" cy="210" r="4"/><circle cx="147" cy="190" r="4"/>
-          <circle cx="290" cy="178" r="4"/><circle cx="318" cy="190" r="4"/><circle cx="325" cy="210" r="4"/><circle cx="318" cy="230" r="4"/>
-          <circle cx="290" cy="242" r="4"/><circle cx="262" cy="230" r="4"/><circle cx="255" cy="210" r="4"/><circle cx="262" cy="190" r="4"/>
-          <circle cx="175" cy="268" r="4"/><circle cx="203" cy="280" r="4"/><circle cx="210" cy="300" r="4"/><circle cx="203" cy="320" r="4"/>
-          <circle cx="175" cy="332" r="4"/><circle cx="147" cy="320" r="4"/><circle cx="140" cy="300" r="4"/><circle cx="147" cy="280" r="4"/>
-          <circle cx="290" cy="268" r="4"/><circle cx="318" cy="280" r="4"/><circle cx="325" cy="300" r="4"/><circle cx="318" cy="320" r="4"/>
-          <circle cx="290" cy="332" r="4"/><circle cx="262" cy="320" r="4"/><circle cx="255" cy="300" r="4"/><circle cx="262" cy="280" r="4"/>
-        </g>
+        <!-- TV / BATH south -->
+        <rect x="40" y="390" width="390" height="40" fill="#fff5f0" stroke="#c45c5c" stroke-width="1.5" stroke-dasharray="4 2"/>
+        <text x="235" y="408" text-anchor="middle" font-size="8" fill="#a33" font-family="Outfit, sans-serif" font-weight="600">4′ CLEAR · TV WALL</text>
+        <rect x="160" y="412" width="50" height="14" fill="#2c2a26"/>
+        <text x="185" y="422" text-anchor="middle" font-size="6" fill="#fff" font-family="Outfit, sans-serif">TV</text>
+        <rect x="230" y="412" width="55" height="14" fill="#fff" stroke="#a33" stroke-width="1.5"/>
+        <text x="257" y="422" text-anchor="middle" font-size="6" fill="#a33" font-family="Outfit, sans-serif">BATH</text>
+        <rect x="100" y="412" width="40" height="14" fill="#fff" stroke="#8a8378"/>
+        <text x="120" y="422" text-anchor="middle" font-size="6" fill="#6b655c" font-family="Outfit, sans-serif">DOOR</text>
+        <text x="235" y="445" text-anchor="middle" font-size="7" fill="#a33" font-family="Outfit, sans-serif">bathroom door beside TV — no tables in this strip</text>
 
-        <!-- Tree + rounds on GRAY -->
-        <circle cx="520" cy="240" r="34" fill="none" stroke="#c9a84c" stroke-dasharray="4 3"/>
-        <circle cx="520" cy="240" r="26" fill="#9bb07f" opacity="0.35"/>
-        <circle cx="520" cy="240" r="16" fill="#7d8f6a" opacity="0.5"/>
-        <circle cx="520" cy="240" r="6" fill="#5c6b4a"/>
-        <circle cx="520" cy="240" r="30" fill="none" stroke="#c4b09a" stroke-width="3"/>
-        <text x="520" y="290" text-anchor="middle" font-size="8" fill="#8a6b1f" font-family="Outfit, sans-serif" font-weight="600">TREE (fixed)</text>
+        <!-- Roof edge + pole -->
+        <line x1="430" y1="50" x2="430" y2="430" stroke="#c9a84c" stroke-width="2.5"/>
+        <rect x="424" y="230" width="12" height="12" fill="#fff" stroke="#c9a84c" stroke-width="2"/>
+        <text x="430" y="255" text-anchor="middle" font-size="7" fill="#8a6b1f" font-family="Outfit, sans-serif">POLE</text>
 
-        <g filter="url(#s)" fill="#fffaf3" stroke="#d4a5a0" stroke-width="1.4">
-          <circle cx="470" cy="155" r="24"/>
-          <circle cx="575" cy="175" r="24"/>
-          <circle cx="545" cy="340" r="24"/>
-        </g>
-        <g font-family="Outfit, sans-serif" text-anchor="middle" fill="#5c6b4a">
-          <text x="470" y="153" font-size="8">R5</text><text x="470" y="164" font-size="7" fill="#d4a5a0">8</text>
-          <text x="575" y="173" font-size="8">R6</text><text x="575" y="184" font-size="7" fill="#d4a5a0">8</text>
-          <text x="545" y="338" font-size="8">R7</text><text x="545" y="349" font-size="7" fill="#d4a5a0">8</text>
-        </g>
+        <!-- Tree + R6 R7 -->
+        <circle cx="530" cy="240" r="28" fill="#9bb07f" opacity="0.35"/>
+        <circle cx="530" cy="240" r="8" fill="#5c6b4a"/>
+        <circle cx="530" cy="240" r="32" fill="none" stroke="#c4b09a" stroke-width="3"/>
+        <text x="530" y="285" text-anchor="middle" font-size="7" fill="#8a6b1f" font-family="Outfit, sans-serif">TREE</text>
+        <circle cx="485" cy="155" r="22" fill="#fffaf3" stroke="#d4a5a0" stroke-width="1.4"/>
+        <circle cx="575" cy="330" r="22" fill="#fffaf3" stroke="#d4a5a0" stroke-width="1.4"/>
+        <text x="485" y="158" text-anchor="middle" font-size="8" fill="#5c6b4a" font-family="Outfit, sans-serif">R6·8</text>
+        <text x="575" y="333" text-anchor="middle" font-size="8" fill="#5c6b4a" font-family="Outfit, sans-serif">R7·8</text>
 
         <!-- Legend -->
-        <g transform="translate(40, 430)" font-family="Outfit, sans-serif" font-size="9" fill="#6b655c">
-          <text x="0" y="0" fill="#5c6b4a" font-weight="500">SEATING</text>
-          <text x="0" y="16">Honor 9 + R1–R4 (brown) 32 + R5–R7 (gray) 24 = </text>
-          <text x="320" y="16" fill="#5c6b4a" font-family="Cormorant Garamond, Georgia, serif" font-size="14" font-weight="600">65</text>
-          <line x1="0" y1="28" x2="100" y2="28" stroke="#2c2a26" stroke-width="1.5"/>
-          <line x1="0" y1="24" x2="0" y2="32" stroke="#2c2a26"/>
-          <line x1="50" y1="24" x2="50" y2="32" stroke="#2c2a26"/>
-          <line x1="100" y1="24" x2="100" y2="32" stroke="#2c2a26"/>
-          <text x="50" y="44" text-anchor="middle" font-size="8">10 ft</text>
+        <g transform="translate(640, 60)" font-family="Outfit, sans-serif" font-size="8" fill="#6b655c">
+          <text y="0" fill="#5c6b4a" font-weight="500">65 SEATS</text>
+          <text y="18">Honor 9</text>
+          <text y="34">R1–R5 40</text>
+          <text y="50">R6–R7 16</text>
+          <line x1="0" y1="60" x2="55" y2="60" stroke="#c9bfb0"/>
+          <text y="78" fill="#5c6b4a" font-family="Cormorant Garamond, Georgia, serif" font-size="14" font-weight="600">= 65</text>
         </g>
       </svg>
-      <p class="caption">SVG schematic — same layout rules as the photo: straight brown rectangle, gray only east of the roof edge.</p>
+      <p class="caption">Flow schematic — bath clear at south, buffet one-way on stone wall, photo at north, overflow on gray.</p>
     </div>
 
     <div class="grid-2">
       <section class="panel">
-        <h2>What was wrong before</h2>
+        <h2>How to pack 65</h2>
         <ul>
-          <li>Cake sat in a <strong>recessed northern nook</strong> — your photo shows a <strong>flat white back wall</strong></li>
-          <li>Gray area looked like a separate big room — it’s the <strong>side yard to the right</strong> of the roof edge</li>
-          <li>Brown must be one continuous covered rectangle with the photo zone on that same floor</li>
+          <li><strong>Honor 9</strong> — cake-wall end, offset so the photo floor stays open</li>
+          <li><strong>R1–R5 (40)</strong> — rounds on brown, two columns + center aisle (bath ↔ photo)</li>
+          <li><strong>R6–R7 (16)</strong> — gray outside, around the tree past the pole</li>
+          <li><strong>Rounds not banquets</strong> — fit the narrow covered strip and match your photo</li>
         </ul>
-        <p class="note">Buffet stays on the left stone wall; rounds fill the brown center; tree/overflow rounds sit on gray outside.</p>
+        <div class="capacity">
+          <div class="stat"><div class="n">9</div><div class="l">Honor</div></div>
+          <div class="stat"><div class="n">40</div><div class="l">Under roof</div></div>
+          <div class="stat"><div class="n">16</div><div class="l">By the tree</div></div>
+        </div>
       </section>
       <section class="panel">
-        <h2>65 seats</h2>
-        <div class="capacity">
-          <div class="stat"><div class="n">9</div><div class="l">Honor (near photo)</div></div>
-          <div class="stat"><div class="n">32</div><div class="l">R1–R4 on brown</div></div>
-          <div class="stat"><div class="n">24</div><div class="l">R5–R7 on gray</div></div>
-        </div>
+        <h2>Buffet · bath · photo</h2>
+        <ul>
+          <li><strong>8 trays</strong> on the stone wall (~16′ line), mid-patio</li>
+          <li><strong>One-way</strong> plates near TV end → trays → exit to seats toward cake</li>
+          <li><strong>Bathroom</strong> door beside TV — full-width 4′ clear, no chairs in the swing</li>
+          <li><strong>Don’t mix</strong> buffet queue with bathroom traffic</li>
+        </ul>
+        <p class="note">Keep drinks at the buffet start or a small station near the stone wall — not in front of the bathroom door.</p>
       </section>
     </div>
   </main>
 
   <footer>
-    Floor plan geometry locked to your correct patio photo. Confirm table clearances on site with a tape measure.
+    Confirm on-site: bathroom door swing, tray table length, and 36″ minimum aisles past the pole.
   </footer>
 </body>
 </html>
