@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Grandma’s 96th — Updated Site Layout</title>
+  <title>Grandma’s 96th — Covered + Uncovered Tables</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -26,7 +26,7 @@
     .eyebrow { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sage-deep); font-weight: 500; margin-bottom: 0.4rem; }
     h1 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; font-size: clamp(1.85rem, 3.5vw, 2.5rem); }
     h1 em { font-style: italic; color: var(--sage-deep); font-weight: 500; }
-    .lede { max-width: 46rem; margin-top: 0.65rem; color: var(--muted); font-weight: 300; font-size: 1.02rem; }
+    .lede { max-width: 48rem; margin-top: 0.65rem; color: var(--muted); font-weight: 300; font-size: 1.02rem; }
     .meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1rem; }
     .chip { border: 1px solid var(--line); background: rgba(255,250,243,0.8); padding: 0.3rem 0.65rem; font-size: 0.75rem; }
     .chip strong { color: var(--sage-deep); }
@@ -35,8 +35,7 @@
     .plan-card img { width: 100%; display: block; }
     .caption { padding: 0.75rem 1rem; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); }
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
-    @media (max-width: 800px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+    @media (max-width: 800px) { .grid-2 { grid-template-columns: 1fr; } }
     section.panel { background: rgba(255,250,243,0.78); border: 1px solid var(--line); padding: 1.15rem 1.25rem; }
     section.panel h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.35rem; margin-bottom: 0.45rem; }
     section.panel li { color: var(--muted); font-size: 0.9rem; }
@@ -48,71 +47,56 @@
 </head>
 <body>
   <header>
-    <p class="eyebrow">Updated from your new site photos</p>
-    <h1>Reconfigured layout for <em>65</em></h1>
+    <p class="eyebrow">Cake north · TV south · tables under roof + on gray</p>
+    <h1>Distributed seating for <em>mobility</em></h1>
     <p class="lede">
-      Pole on the roof edge, tree ~<strong>4 ft right</strong> on gray (outside roof),
-      <strong>8′ rectangular</strong> family tables, décor and buffet reset to match the real patio.
+      Brown tables stay <strong>under the metal roof</strong>. Cake/backdrop at the
+      <strong>north</strong> roof end; TV (facing the cake) and bathroom at the <strong>south</strong>.
+      Half the tables move to <strong>uncovered gray</strong> so aisles stay open.
     </p>
     <div class="meta">
-      <span class="chip"><strong>Tree</strong> outside roof</span>
-      <span class="chip"><strong>8×</strong> 8′ tables</span>
-      <span class="chip"><strong>65</strong> seats</span>
-      <span class="chip"><strong>8-tray</strong> buffet</span>
+      <span class="chip"><strong>North</strong> cake</span>
+      <span class="chip"><strong>South</strong> TV → cake</span>
+      <span class="chip"><strong>32</strong> covered · <strong>32</strong> uncovered</span>
+      <span class="chip"><strong>65</strong> total</span>
     </div>
   </header>
 
   <main>
     <div class="plan-card">
-      <img src="./assets/patio-floor-plan-65.png" alt="Updated floor plan from site photos" />
-      <p class="caption">Floor plan — brown under roof · pole · 4 ft · tree on gray · T1–T6 + T7–T8 = 65 with +1 chair.</p>
+      <img src="./assets/patio-floor-plan-65.png" alt="Floor plan with covered and uncovered table distribution" />
+      <p class="caption">T1–T4 under roof on brown · T5–T8 on gray · cake north · TV south facing cake · tree 4 ft right of pole.</p>
     </div>
 
     <div class="plan-card">
-      <img src="./assets/patio-party-spatial-render.png" alt="Updated spatial render with décor and rectangular tables" />
-      <p class="caption">Wide render — décor on cake wall, buffet on stone wall, banquets under roof, tree past the pole on gray.</p>
-    </div>
-
-    <div class="grid-3">
-      <div class="plan-card">
-        <img src="./assets/site-refs/59EEDD33-D820-4243-8DCC-A39ADBFC1634_L0_001.jpg" alt="Site ref pole and tree" />
-        <p class="caption">Site: pole at roof edge, tree outside.</p>
-      </div>
-      <div class="plan-card">
-        <img src="./assets/site-refs/8F697071-3158-463E-AD93-7001DEA665C4_L0_001.jpg" alt="Site ref tree on gray" />
-        <p class="caption">Site: tree on gray, ~4 ft from pole.</p>
-      </div>
-      <div class="plan-card">
-        <img src="./assets/site-refs/67D3B48D-831D-4287-89EB-038CD1A93551_L0_001.jpg" alt="Site ref covered patio" />
-        <p class="caption">Site: covered brown patio volume.</p>
-      </div>
+      <img src="./assets/patio-party-spatial-render.png" alt="Render with tables under roof and on gray" />
+      <p class="caption">Covered banquets under the metal roof; gray courtyard seating past the pole and tree.</p>
     </div>
 
     <div class="grid-2">
       <section class="panel">
-        <h2>What was reconfigured</h2>
+        <h2>Under the roof (brown)</h2>
         <ul>
-          <li>Landmarks locked from your new photos</li>
-          <li>Rectangular 8′ tables for the long covered strip</li>
-          <li>Décor + buffet reset on cake wall and stone wall</li>
-          <li>Gray courtyard seating clear of the tree</li>
+          <li>T1–T4 only — all fully under metal roof</li>
+          <li>Wide aisle north↔south for cake photos + bath access</li>
+          <li>Buffet on stone wall</li>
+          <li>32 seats</li>
         </ul>
-        <a class="btn" href="./SETUP.md">Setup checklist →</a>
       </section>
       <section class="panel">
-        <h2>Seat count</h2>
+        <h2>Uncovered (gray)</h2>
         <ul>
-          <li>T1–T6 on brown → <strong>48</strong></li>
-          <li>T7–T8 on gray → <strong>16</strong></li>
-          <li>+1 chair → <strong>65</strong></li>
-          <li>Bathroom 4′ clear at TV wall</li>
+          <li>T5–T8 spread around the fixed tree</li>
+          <li>Improves mobility vs packing six tables under roof</li>
+          <li>32 seats + 1 extra chair elsewhere = 65</li>
         </ul>
+        <a class="btn" href="./SETUP.md">Setup checklist →</a>
       </section>
     </div>
   </main>
 
   <footer>
-    Measure the pole-to-tree gap and brown width on site before final rentals.
+    Confirm north = cake wall and south = TV/bath on site before placing tables.
   </footer>
 </body>
 </html>

@@ -1,35 +1,29 @@
-# Grandma’s 96th — Updated from site photos
+# Grandma’s 96th — Covered + uncovered distribution
 
-Layout rebuilt from your new patio photos (pole, tree, brown/gray, walls).
+## Roof axis (brown only)
+| End | What’s there |
+|-----|----------------|
+| **NORTH** (under metal roof) | Cake + backdrop + photo clear |
+| **SOUTH** (under metal roof) | TV facing north toward cake · bathroom beside TV · 4′ clear |
 
-## Fixed landmarks
-| Landmark | Position |
-|----------|----------|
-| **Support pole** | On the roof edge (brown / gray line) |
-| **Tree** | Gray only, **outside roof**, ~**4 ft right** of the pole |
-| **Brown tiles** | Under the corrugated roof (stone/brick wall side) |
-| **Gray tiles** | Open courtyard past the pole (full area shown) |
-| **Cake wall** | Backdrop + cake (photo clear) |
-| **TV wall** | Opposite cake; TV faces cake; bathroom beside TV (4′ clear) |
+All **brown-tile tables sit fully under the metal roof**.
 
-## Tables (reconfigured)
-**8′ × 30″** rectangular banquet tables · 8 seats each · family seating (no honor table)
+## Table distribution (mobility)
+**8′ × 30″** rectangles · 8 seats · family seating
 
-| Zone | Tables | Seats |
-|------|--------|------:|
-| Brown under roof | T1–T6 (2 rows × 3) | 48 |
-| Gray (clear of tree) | T7–T8 | 16 |
-| Extra chair | — | 1 |
-| **Total** | **8** | **65** |
+| Zone | Tables | Seats | Why |
+|------|--------|------:|-----|
+| **Covered brown** | T1–T4 (2×2, wide aisles) | 32 | Room for buffet + cake↔TV aisle |
+| **Uncovered gray** | T5–T8 around fixed tree | 32 | Spread load; easier circulation |
+| Extra chair | — | 1 | |
+| **Total** | **8** | **65** | |
 
-## Décor
-- Cake wall: Boho Spring Garden backdrop + balloon arch + cake `96`
-- Buffet: 8 trays along the stone/brick wall
-- Linens: cream / wildflower on dining + buffet
+## Landmarks
+- Pole on roof edge · tree on gray ~**4 ft right** of pole (outside roof)  
+- 8-tray buffet on stone/brick wall (under roof)  
+- Gray courtyard correct and fully used for seating  
 
 ## Files
-- [Floor plan](./assets/patio-floor-plan-65.png)
-- [Render](./assets/patio-party-spatial-render.png)
-- [Setup checklist](./SETUP.md)
-- [Browser package](./index.html)
-- [Site photo refs](./assets/site-refs/)
+- [Floor plan](./assets/patio-floor-plan-65.png)  
+- [Render](./assets/patio-party-spatial-render.png)  
+- [Setup](./SETUP.md) · [Browser](./index.html)  
