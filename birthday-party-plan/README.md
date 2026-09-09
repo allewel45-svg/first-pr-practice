@@ -29,4 +29,4 @@
 ## Visuals
 
 - [Floor plan](./assets/patio-floor-plan-65.png)  
-- [Spatial render](./assets/patio-party-spatial-render.png)  
+- [Spatial render](./assets/patio-party-spatial-render.png) — vantage from the metal security door looking out into the patio  
