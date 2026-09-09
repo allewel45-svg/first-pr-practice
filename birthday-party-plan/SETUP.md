@@ -3,34 +3,32 @@
 ## Clear before setup
 - [ ] Move fridge and stacked white chairs off the **cake wall**
 - [ ] Clear sofas/coffee table from brown floor
-- [ ] Keep **bathroom door** (beside TV) fully usable
+- [ ] Do **not** move the tree or planter
+- [ ] Keep **bathroom door** (beside TV) fully usable — 4′ clear
 
-## Rent / buy
+## Rent / buy (realistic sizes)
 | Item | Qty | Notes |
 |------|-----|--------|
-| Round tables (60″) | 7 | R1–R7 |
-| Banquet/rect table (honor) | 1 | Seats 9 near cake |
-| Chairs | 65 | + a few spares |
-| Buffet tables | 2×6′ or 1×8′+ | ~16′ total for **8 trays** |
-| Cake table | 1×4–6′ | In front of backdrop |
-| Linens | Matching wildflower/cream | Tables + buffet + cake |
-| Backdrop + balloon arch | 1 kit | Boho Spring Garden (sage / blush / cream) |
-| String lights | As needed | Under roof + overhead wires |
+| **60″ round tables** | **8** | R1–R8 · seats ~8 each |
+| Chairs | **65** | 64 at tables + 1 spare/extra |
+| Buffet tables | ~16′ total | For **8 trays** (e.g. 2×8′ or 2×6′+2′) |
+| Cake table | 1×4–6′ | At backdrop only |
+| Linens | For 8 rounds + buffet + cake | Cream / wildflower |
+| Backdrop + balloon arch | 1 | Boho Spring Garden |
+| String lights | As needed | Under roof |
 
 ## Place in this order
-1. **Cake wall** — backdrop, arch, cake table (photo floor clear)
-2. **TV wall** — leave **4′ clear** across; no chairs in bathroom swing
-3. **Buffet** — stone/brick wall; plates near TV end → 8 trays toward cake
-4. **Honor (9)** — near cake, offset so photos stay open
-5. **R1–R5** — brown under roof, two columns + center aisle
-6. **R6–R7** — gray outside, around the tree (past the pole)
-
-## Day-of flow
-- Guests enter → seats on brown or gray  
-- Food: one-way buffet (don’t block bathroom)  
-- Photos: cake wall, aisle kept open  
-- Bathroom: always clear at TV wall  
+1. **Cake wall** — backdrop, arch, cake (keep photo floor clear ~5′)
+2. **TV wall** — leave **4′ clear**; no chairs in bathroom door swing
+3. **Buffet** — brick wall; plates near TV → 8 trays toward cake
+4. **R1–R6** — 60″ rounds on **brown** only (2 columns × 3 rows)
+5. **R7–R8** — 60″ rounds on **gray**, **around** the fixed tree (not on the planter)
 
 ## Seat math
-**Honor 9 + R1–R5 (40) + R6–R7 (16) = 65**  
-(If the honor table is drawn with 8 chairs, add a 9th chair there.)
+**R1–R6 (48) + R7–R8 (16) = 64 · +1 chair = 65**
+
+## Day-of flow
+- Family seating at all rounds (no separate head table)
+- Buffet one-way — don’t block bathroom
+- Photos at cake wall — keep aisle open
+- Tree and pole stay as fixed obstacles

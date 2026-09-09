@@ -1,48 +1,29 @@
-# Grandma’s 96th Birthday — Patio Plan (Complete)
+# Grandma’s 96th — Realistic seating plan
 
-Boho Spring Garden party for **65 guests** on the covered patio + gray outdoor band.
+## What’s fixed in this revision
+- **Tree stays put** — circular planter on the gray side toward the TV end (not moved to the cake corner)
+- **No honor table** — everyone sits together at the same family tables
+- **Realistic size** — **60″ rounds** (5 ft), ~8 seats each, drawn to the 10 ft scale
 
-## Orientation (from your photos)
+## Capacity (honest)
 
-| | |
-|--|--|
-| **TV wall** (Wyze camera end) | TV mounted here, **faces the cake**. Bathroom door beside TV — keep **4′ clear**. |
-| **Cake wall** (opposite) | Backdrop + balloons + cake. Remove fridge & stacked chairs. |
-| **Brown band** | Under the roof, along brick/stone wall — **≈ same width as gray** |
-| **Gray band** | Outside the roof, past the pole — **≈ same width as brown** |
+| Zone | Tables | Seats |
+|------|--------|------:|
+| Brown under roof | R1–R6 × 60″ | 48 |
+| Gray around fixed tree | R7–R8 × 60″ | 16 |
+| Extra chair on any table | — | 1 |
+| **Total** | **8 rounds** | **65** |
 
-```
-              CAKE WALL
-     ┌──────────────┬──────────────┐
-     │ BROWN        │ GRAY         │
-     │ under roof   │ outside      │
-     │ ≈ equal width│ ≈ equal width│
-     │ buffet+seats │ tree+seats   │
-     └──────────────┴──────────────┘
-              TV WALL
-         (TV faces cake · bath beside TV)
-```
+Each 60″ table needs about **9 ft** clear including chairs. Photo zone at the cake (~5 ft) and bathroom clear at the TV (~4 ft) are kept empty of dining tables.
 
-## Final seating (65)
-
-| Zone | What | Seats |
-|------|------|------:|
-| Honor | Near cake, offset for photos (use 9 chairs) | 9 |
-| R1–R5 | Rounds on brown under roof | 40 |
-| R6–R7 | Rounds on gray by the tree | 16 |
-| **Total** | | **65** |
-
-## Buffet (8 trays)
-
-Long tables on the **brick/stone wall**, one-way: plates nearer the TV end → trays 1–8 toward the cake → guests return to seats. Do not block the bathroom clear strip.
+## Layout rules
+- Brown ≈ gray width; brown under roof; gray outside past the pole  
+- TV on camera wall faces cake; bathroom beside TV  
+- 8-tray buffet on brick/stone wall (brown side)  
+- All family seating — no separate head table  
 
 ## Files
-
-| File | Purpose |
-|------|---------|
-| [patio-floor-plan-65.png](./assets/patio-floor-plan-65.png) | Final labeled floor plan |
-| [patio-party-spatial-render.png](./assets/patio-party-spatial-render.png) | Realistic view from TV wall toward cake |
-| [SETUP.md](./SETUP.md) | Clear / rent / place checklist |
-| [index.html](./index.html) | Open in a browser for the full package |
-| [wyze-from-tv-wall.jpg](./assets/wyze-from-tv-wall.jpg) | Real camera reference |
-| [tv-wall-facing.jpg](./assets/tv-wall-facing.jpg) | TV + bathroom door reference |
+- [Floor plan](./assets/patio-floor-plan-65.png)
+- [Render](./assets/patio-party-spatial-render.png)
+- [Setup checklist](./SETUP.md)
+- [Browser view](./index.html)
