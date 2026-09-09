@@ -1,35 +1,39 @@
 # Grandma’s 96th — Patio Floor Plan (65 Seated)
 
-**Theme:** Boho Spring Garden (sage · dusty pink · cream · wildflower)  
-**Open:** [index.html](./index.html)
+Geometry locked to the **correct patio photo** (`assets/correct-patio-reference.jpg`).
 
-## Flooring (corrected)
+## Correct layout
 
-| Surface | Where |
-|---------|--------|
-| **Brown / reddish stone tiles** | Straight continuous run **under one roof**, including the far-end cake & décor zone |
-| **Gray / light pebble tiles** | **Only outside the roof** (open courtyard with the tree) |
+```
+NORTH = white back wall (cake / backdrop on this flat wall)
+┌──────────────────────────────┬─────────────────┐
+│  PHOTO + CAKE                │                 │
+│  [buffet]  rounds R1–R4      │ POLE │  GRAY    │
+│  stone     (brown tiles)     │      │  outside │
+│  wall                        │      │  + tree  │
+│         UNDER ONE ROOF       │      │  R5–R7   │
+└──────────────────────────────┴─────────────────┘
+```
 
-The white support pole sits at the roof edge between brown (covered) and gray (open).
-
-## Photo zone
-
-Far end of the **brown-tiled covered patio** (where the fridge and stacked white chairs are now):
-
-- Remove fridge, chair stacks, and clutter  
-- Same brown floor under the same roof — not a separate gray recess  
-- Backdrop, balloon arch, cake (`96`), clear stand space for photos with grandma  
+| Rule | Detail |
+|------|--------|
+| Brown tiles | One straight covered rectangle under one roof |
+| Photo zone | Against the **flat white back wall** — not a recessed nook |
+| Gray tiles | **Only right of the roof edge** (pole on the line) |
+| Buffet | Left stone wall (as in photo) |
 
 ## Seating (65)
 
-| Table | Location | Seats |
-|-------|----------|-------|
-| Honor | Near photo zone on brown under roof | 9 |
-| Banquets B1–B4 | Covered brown patio around pole | 32 |
-| Rounds R1–R4 | Gray courtyard around tree | 32 |
-| **Total** | | **65** |
+| | Seats |
+|--|------:|
+| Honor (near photo) | 9 |
+| R1–R4 on brown under roof | 32 |
+| R5–R7 on gray around tree | 24 |
+| **Total** | **65** |
 
-## Visuals
+## Files
 
-- [Floor plan](./assets/patio-floor-plan-65.png)  
-- [Spatial render](./assets/patio-party-spatial-render.png)  
+- [Correct reference photo](./assets/correct-patio-reference.jpg)
+- [Floor plan](./assets/patio-floor-plan-65.png)
+- [Interactive plan](./index.html)
+- [Spatial render](./assets/patio-party-spatial-render.png)
