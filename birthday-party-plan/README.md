@@ -1,43 +1,48 @@
-# Grandma’s 96th — Optimized layout (65 seated)
+# Grandma’s 96th — Corrected layout (65 seated)
 
-Geometry matches the correct patio photo. This plan adds **function**: bathroom at the TV end, **8-tray buffet**, photo zone at the cake wall.
+## Orientation (locked to your photos)
 
-## Ends of the patio (facing each other)
+The **Wyze camera sits on the TV wall**, looking toward the **cake wall**.
 
-| End | What’s there | Rule |
-|-----|----------------|------|
-| **Cake wall** | Backdrop, balloons, cake | Clear stand space for photos with grandma |
-| **TV wall** (opposite, same brown-tile axis) | TV + **bathroom door** beside TV | **4′ clear corridor** — no tables against that wall |
+| | |
+|--|--|
+| **TV wall** (camera end) | TV mounted here, **screen faces the cake**. Bathroom door beside the TV. Keep **4′ clear**. |
+| **Cake wall** (opposite) | Backdrop + cake. Fridge/chairs removed. Same brown tiles under the roof. |
+| **Brown band** | Under the roof, along the stone/brick wall — **≈ same width as gray** |
+| **Gray band** | Outside the roof, other side of the pole — **≈ same width as brown** |
 
-These two walls face each other in a **straight line of brown tiling under one roof**. Gray tiles are only outside the roof, beside that strip (pole on the roof edge).
+Brown runs in a straight line from TV wall → cake wall. Gray runs beside it, not under the roof.
 
-## Optimized seating (65)
+```
+        CAKE WALL (backdrop + cake)
+   ┌─────────────┬─────────────┐
+   │   BROWN     │    GRAY     │
+   │  under roof │  outside    │
+   │  ≈ equal    │  ≈ equal    │
+   │  width      │  width      │
+   │  buffet +   │  tree +     │
+   │  R1–R5      │  R6–R7      │
+   └─────────────┴─────────────┘
+        TV WALL (TV faces cake · bath beside TV)
+```
 
-| Zone | Setup | Seats |
-|------|--------|------:|
-| Honor | Near cake wall, offset so photo floor stays open | 9 |
-| R1–R5 | Round tables on **brown under roof**, two columns + **center aisle** (bath → photo) | 40 |
-| R6–R7 | Round tables on **gray** around the tree | 16 |
-| **Total** | | **65** |
+## Seating (65)
 
-**Why rounds:** Match your photo’s table style and fit the narrow covered strip better than long banquets (easier aisles past the pole and buffet).
+| Zone | Seats |
+|------|------:|
+| Honor near cake (offset) | 9 |
+| R1–R5 on brown | 40 |
+| R6–R7 on gray by tree | 16 |
+| **Total** | **65** |
 
-## 8-tray buffet
+## Buffet
 
-- Long table on the **stone wall** (same side as your photo)
-- Mid-run: not in the photo zone, not in the bathroom corridor
-- **One-way:** plates start nearer the TV end → Tray 1…8 toward the cake end → guests peel off to seats
-- About **16′** of serving length for 8 trays + plates/napkins
-
-## Circulation (priority order)
-
-1. **Bathroom** — clear strip across the TV wall; door swing free  
-2. **Buffet queue** — along stone wall, separate from bath traffic  
-3. **Photo aisle** — center spine from mid-patio to cake wall  
-4. **Gray overflow** — past the pole around the tree  
+8 trays on the stone/brick wall (brown side), one-way: plates nearer TV end → trays toward cake → seats. Not in the bathroom clear zone.
 
 ## Files
 
-- [Floor plan](./assets/patio-floor-plan-65.png)  
-- [Reference photo](./assets/correct-patio-reference.jpg)  
-- [Interactive plan](./index.html)  
+- [Floor plan](./assets/patio-floor-plan-65.png)
+- [Realistic render from TV/camera wall](./assets/patio-party-spatial-render.png)
+- [Wyze view toward cake](./assets/wyze-from-tv-wall.jpg)
+- [TV wall photo](./assets/tv-wall-facing.jpg)
+- [Interactive plan](./index.html)
